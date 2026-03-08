@@ -26,7 +26,7 @@ RouteLocator gatewayRoutes(RouteLocatorBuilder builder){
                     .route (r->r.path("/markets/**").uri("lb://MARKETS"))
                     .build();
 
-    }*/
+    }test*/
 
 
     // config route dynamique
